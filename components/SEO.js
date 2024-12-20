@@ -96,7 +96,7 @@ const SEO = props => {
 
   return (
     <Head>
-      <link rel='icon' href={favicon} />
+      <link rel='icon' href="/favicon.ico" />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
