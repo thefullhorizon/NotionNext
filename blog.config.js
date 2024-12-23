@@ -20,12 +20,12 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '数据 + AI，助你构建未来世界超级个体！',
+    '助你构建数字世界超级个体',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Taylor', // 您的昵称
-  BIO: process.env.NEXT_PUBLIC_BIO || '追求通过数据和AI实现商业价值', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '通过数据+AI，帮助个人和中小企业实现数字化和商业价值。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://taylorai.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
