@@ -25,7 +25,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Taylor', // 您的昵称
-  BIO: process.env.NEXT_PUBLIC_BIO || '基于大数据+AI，通过数字化、智能化，帮助个人和中小企业实现持续的商业价值。', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '通过Data和AI，帮助中小企业和个人实现持续的商业价值。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://taylorai.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
 
