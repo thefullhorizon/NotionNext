@@ -12,6 +12,15 @@ const Footer = ({ title }) => {
 
   return (
     <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-hexo-light-gray justify-center text-center m-auto w-full leading-6  text-gray-600 dark:text-gray-100 text-sm p-6'>
+      <p className='mb-3'>
+        猎户座是
+        <a
+          href='https://taylorai.top/'
+          className='mx-1 underline underline-offset-4 hover:text-black dark:hover:text-white'>
+          粒子川流 ParStream
+        </a>
+        旗下独立品牌，专注技术深度拆解。
+      </p>
       {/* <DarkModeButton/> */}
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
